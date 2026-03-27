@@ -7,9 +7,9 @@ app = FastAPI()
 CSV_FILE = "dim_location.csv"
 
 
-@app.get("/")
-def home():
-    return {"message": "CSV API is running"}
+# @app.get("/")
+# def home():
+#     return {"message": "CSV API is running"}
 
 
 @app.get("/dim_location", response_class=PlainTextResponse)
