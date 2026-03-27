@@ -6,22 +6,43 @@ app = FastAPI()
 
 CSV_FILE = "dim_location.csv"
 
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import Response
+import os
 
-# @app.get("/")
-# def home():
-#     return {"message": "CSV API is running"}
+app = FastAPI()
+
+CSV_FILE = "dim_location.csv"
 
 
-@app.get("/dim_location", response_class=PlainTextResponse)
-def get_dim_location_csv():
+@app.get("/")
+def get_csv_root():
     if not os.path.exists(CSV_FILE):
         raise HTTPException(status_code=404, detail="CSV file not found")
 
     try:
         with open(CSV_FILE, "r", encoding="utf-8-sig") as file:
-            return file.read()
+            csv_content = file.read()
+
+        return Response(
+            content=csv_content,
+            media_type="text/csv"
+        )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+
+# @app.get("/dim_location", response_class=PlainTextResponse)
+# def get_dim_location_csv():
+#     if not os.path.exists(CSV_FILE):
+#         raise HTTPException(status_code=404, detail="CSV file not found")
+
+#     try:
+#         with open(CSV_FILE, "r", encoding="utf-8-sig") as file:
+#             return file.read()
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
 
 # from fastapi import FastAPI, HTTPException
 # from fastapi.responses import PlainTextResponse
