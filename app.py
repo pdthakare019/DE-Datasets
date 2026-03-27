@@ -26,7 +26,7 @@ def get_csv_root():
 
         return Response(
             content=csv_content,
-            media_type="text/csv"
+            media_type="text/plain"
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
