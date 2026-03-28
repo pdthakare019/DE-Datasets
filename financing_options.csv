@@ -1,0 +1,8 @@
+financing_id,financing_type,financing_group,typical_rate_min,typical_rate_max,max_tenure_years,max_ltv_pct,processing_fee_pct,eligible_nationalities,api_last_updated
+FIN-01,Cash,No Loan,2.69,3.65,25,85,1.46,All,2025-01-29
+FIN-02,Conventional Mortgage,Bank,2.79,5.16,25,85,1.0,All,2025-01-29
+FIN-03,Islamic Mortgage (Murabaha/Ijara),Islamic Finance,2.65,3.58,20,75,1.03,Expats+GCC,2025-02-15
+FIN-04,Developer Payment Plan,Developer,3.64,4.9,15,85,0.78,All,2025-02-26
+FIN-05,Corporate Lease,Corporate,3.97,4.74,20,85,0.81,GCC Only,2025-01-26
+FIN-06,NBFC/Private Finance,Private,3.22,4.0,20,75,1.15,UAE Nationals Only,2025-02-17
+FIN-04,Developer Payment Plan,Developer,3.46,5.68,25,80,0.72,GCC Only,2025-03-06
