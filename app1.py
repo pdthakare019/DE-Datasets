@@ -4,7 +4,7 @@ import os
 
 app = FastAPI()
 
-CSV_FILE = "financing_options.csv"
+CSV_FILE = "property_interactions.csv"
 API_KEY = os.getenv("API_KEY")
 
 
