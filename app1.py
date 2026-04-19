@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException, Header, Query
 from fastapi.responses import Response
 import os
 import pandas as pd
-from datetime import date
 
 app = FastAPI()
 CSV_FILE = "property_interactions.csv"
@@ -23,16 +22,13 @@ def verify_api_key(x_api_key, api_key):
 
 @app.get("/")
 def get_interactions(
-    x_api_key:  str | None  = Header(default=None),
-    api_key:    str | None  = Query(default=None),
-    page:       int         = Query(default=1,    ge=1),
-    size:       int         = Query(default=1000, ge=1, le=5000),
-    from_date:  date | None = Query(default=None)
+    x_api_key: str | None = Header(default=None),
+    api_key:   str | None = Query(default=None),
+    page:      int        = Query(default=1,    ge=1),
+    size:      int        = Query(default=1000, ge=1, le=5000)
 ):
-    # ── Auth ──────────────────────────────────────────────
     verify_api_key(x_api_key, api_key)
 
-    # ── Load CSV ──────────────────────────────────────────
     if not os.path.exists(CSV_FILE):
         raise HTTPException(
             status_code=404,
@@ -42,22 +38,9 @@ def get_interactions(
     try:
         df = pd.read_csv(CSV_FILE, encoding="utf-8-sig")
 
-        # ── Date Filter (CDC incremental) ─────────────────
-        # If from_date provided filter records >= from_date
-        # This enables incremental load via CDC watermark
-        if from_date:
-            df['interaction_dt'] = pd.to_datetime(
-                df['interaction_dt'], errors='coerce'
-            )
-            df = df[
-                df['interaction_dt'] >= pd.Timestamp(from_date)
-            ]
-
-        # ── Pagination ────────────────────────────────────
         total_records = len(df)
         total_pages   = max(1, (total_records + size - 1) // size)
 
-        # Validate page number
         if page > total_pages:
             return {
                 "page":          page,
@@ -68,12 +51,9 @@ def get_interactions(
                 "data":          []
             }
 
-        # Slice dataframe for current page
-        start  = (page - 1) * size
-        end    = start + size
+        start   = (page - 1) * size
+        end     = start + size
         page_df = df.iloc[start:end]
-
-        # Convert NaN to None for clean JSON
         page_df = page_df.where(pd.notnull(page_df), None)
 
         return {
@@ -89,9 +69,6 @@ def get_interactions(
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ── Keep original endpoint for backward compatibility ─────
-# Returns full CSV as plain text (no pagination)
-# Used by anything that still calls raw CSV format
 @app.get("/raw")
 def get_csv_raw(
     x_api_key: str | None = Header(default=None),
