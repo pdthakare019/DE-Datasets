@@ -1,0 +1,25 @@
+region_id,region,country,state,city,currency,tax_rate
+R001,APAC,India,Maharashtra,Mumbai,INR,0.18
+R002,APAC,India,Delhi,New Delhi,INR,0.18
+R003,APAC,India,Karnataka,Bangalore,INR,0.18
+R004,APAC,India,Tamil Nadu,Chennai,INR,0.18
+R005,APAC,India,Telangana,Hyderabad,INR,0.18
+R006,APAC,India,Maharashtra,Pune,INR,0.18
+R007,APAC,South Korea,Seoul,Seoul,KRW,0.1
+R008,APAC,Japan,Tokyo,Tokyo,JPY,0.1
+R009,APAC,Singapore,Singapore,Singapore,SGD,0.09
+R010,APAC,Australia,NSW,Sydney,AUD,0.1
+R011,EMEA,United Kingdom,England,London,GBP,0.2
+R012,EMEA,United Kingdom,England,Manchester,GBP,0.2
+R013,EMEA,Germany,Berlin,Berlin,EUR,0.19
+R014,EMEA,Germany,Bavaria,Munich,EUR,0.19
+R015,EMEA,France,Ile-de-France,Paris,EUR,0.2
+R016,EMEA,UAE,Dubai,Dubai,AED,0.05
+R017,EMEA,Saudi Arabia,Riyadh,Riyadh,SAR,0.15
+R018,North America,USA,New York,New York,USD,0.08
+R019,North America,USA,California,Los Angeles,USD,0.09
+R020,North America,USA,Illinois,Chicago,USD,0.1
+R021,North America,USA,Texas,Houston,USD,0.08
+R022,North America,Canada,Ontario,Toronto,CAD,0.13
+R023,Latin America,Brazil,Sao Paulo,Sao Paulo,BRL,0.17
+R024,Latin America,Mexico,CDMX,Mexico City,MXN,0.16

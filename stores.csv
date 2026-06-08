@@ -1,0 +1,109 @@
+store_id,store_name,channel_type,region_id,city,opening_date,manager_name
+S0001,Samsung SES - Mumbai #001,Samsung Experience Store,R001,Mumbai,2021-07-17,Anjali Kapoor
+S0002,Samsung SES - Mumbai #002,Samsung Experience Store,R001,Mumbai,2020-07-28,Yuki Park
+S0003,Samsung Carrier - Mumbai #003,Carrier Partner,R001,Mumbai,2020-06-27,Lucas Taylor
+S0004,Samsung SES - New Delhi #004,Samsung Experience Store,R002,New Delhi,2021-03-23,Anjali Garcia
+S0005,Samsung Reseller - New Delhi #005,Authorized Reseller,R002,New Delhi,2023-02-23,Rohan Lee
+S0006,Samsung Reseller - New Delhi #006,Authorized Reseller,R002,New Delhi,2023-01-21,Olivia Kapoor
+S0007,Samsung Reseller - Bangalore #007,Authorized Reseller,R003,Bangalore,2024-07-15,Carlos Sharma
+S0008,Samsung Online - Bangalore #008,Online,R003,Bangalore,2020-11-22,Min-jun Taylor
+S0009,Samsung SES - Bangalore #009,Samsung Experience Store,R003,Bangalore,2020-11-14,Rohan Al-Farsi
+S0010,Samsung SES - Bangalore #010,Samsung Experience Store,R003,Bangalore,2020-07-08,Liam Reddy
+S0011,Samsung Reseller - Bangalore #011,Authorized Reseller,R003,Bangalore,2021-12-05,Mia Joshi
+S0012,Samsung Online - Bangalore #012,Online,R003,Bangalore,2024-02-03,Noah Martinez
+S0013,Samsung Carrier - Chennai #013,Carrier Partner,R004,Chennai,2022-02-14,Rahul Martinez
+S0014,Samsung SES - Chennai #014,Samsung Experience Store,R004,Chennai,2023-07-11,Mia Rodriguez
+S0015,Samsung Carrier - Chennai #015,Carrier Partner,R004,Chennai,2023-03-28,Rohan Lee
+S0016,Samsung SES - Hyderabad #016,Samsung Experience Store,R005,Hyderabad,2021-04-11,Ahmed Mehta
+S0017,Samsung Carrier - Hyderabad #017,Carrier Partner,R005,Hyderabad,2024-10-17,Anjali Silva
+S0018,Samsung SES - Hyderabad #018,Samsung Experience Store,R005,Hyderabad,2021-07-23,Noah Tanaka
+S0019,Samsung SES - Pune #019,Samsung Experience Store,R006,Pune,2021-12-28,Rohan Suzuki
+S0020,Samsung SES - Pune #020,Samsung Experience Store,R006,Pune,2023-10-31,Hiroshi Khan
+S0021,Samsung Reseller - Pune #021,Authorized Reseller,R006,Pune,2020-12-16,Ava Park
+S0022,Samsung SES - Pune #022,Samsung Experience Store,R006,Pune,2022-08-04,Liam Joshi
+S0023,Samsung Carrier - Pune #023,Carrier Partner,R006,Pune,2023-08-03,Min-jun Martinez
+S0024,Samsung Online - Seoul #024,Online,R007,Seoul,2024-09-22,Ahmed Al-Farsi
+S0025,Samsung SES - Seoul #025,Samsung Experience Store,R007,Seoul,2024-08-10,Priya Hassan
+S0026,Samsung SES - Seoul #026,Samsung Experience Store,R007,Seoul,2021-07-02,Rahul Verma
+S0027,Samsung Carrier - Seoul #027,Carrier Partner,R007,Seoul,2023-03-07,Sofia Lee
+S0028,Samsung SES - Tokyo #028,Samsung Experience Store,R008,Tokyo,2022-10-19,Liam Rodriguez
+S0029,Samsung Carrier - Tokyo #029,Carrier Partner,R008,Tokyo,2022-07-28,Karan Joshi
+S0030,Samsung SES - Tokyo #030,Samsung Experience Store,R008,Tokyo,2024-03-05,Ava Martinez
+S0031,Samsung SES - Tokyo #031,Samsung Experience Store,R008,Tokyo,2023-04-12,Olivia Rodriguez
+S0032,Samsung Reseller - Tokyo #032,Authorized Reseller,R008,Tokyo,2022-01-11,Anjali Iyer
+S0033,Samsung Reseller - Singapore #033,Authorized Reseller,R009,Singapore,2024-03-27,Priya Silva
+S0034,Samsung SES - Singapore #034,Samsung Experience Store,R009,Singapore,2023-07-09,Meera Hassan
+S0035,Samsung Online - Singapore #035,Online,R009,Singapore,2023-05-06,Rahul Wilson
+S0036,Samsung Reseller - Singapore #036,Authorized Reseller,R009,Singapore,2022-08-16,Daniel Joshi
+S0037,Samsung Carrier - Singapore #037,Carrier Partner,R009,Singapore,2024-10-28,Aarav Suzuki
+S0038,Samsung Online - Singapore #038,Online,R009,Singapore,2023-10-28,Sofia Martinez
+S0039,Samsung Online - Singapore #039,Online,R009,Singapore,2024-04-23,Hiroshi Smith
+S0040,Samsung SES - Sydney #040,Samsung Experience Store,R010,Sydney,2020-11-19,Noah Sharma
+S0041,Samsung Carrier - Sydney #041,Carrier Partner,R010,Sydney,2024-11-28,Seo-yeon Joshi
+S0042,Samsung Carrier - Sydney #042,Carrier Partner,R010,Sydney,2024-04-09,Meera Garcia
+S0043,Samsung Carrier - London #043,Carrier Partner,R011,London,2021-09-03,Wei Tanaka
+S0044,Samsung Reseller - London #044,Authorized Reseller,R011,London,2021-02-11,Karan Brown
+S0045,Samsung Online - London #045,Online,R011,London,2023-01-09,Ahmed Souza
+S0046,Samsung Carrier - Manchester #046,Carrier Partner,R012,Manchester,2023-05-11,James Miller
+S0047,Samsung SES - Manchester #047,Samsung Experience Store,R012,Manchester,2022-01-13,Sofia Chen
+S0048,Samsung Online - Manchester #048,Online,R012,Manchester,2021-05-05,Priya Kapoor
+S0049,Samsung Carrier - Manchester #049,Carrier Partner,R012,Manchester,2020-06-10,Rahul Park
+S0050,Samsung Reseller - Manchester #050,Authorized Reseller,R012,Manchester,2020-05-21,Ahmed Martinez
+S0051,Samsung Online - Manchester #051,Online,R012,Manchester,2020-09-19,Yuki Miller
+S0052,Samsung Carrier - Manchester #052,Carrier Partner,R012,Manchester,2020-12-04,Vikram Garcia
+S0053,Samsung Reseller - Berlin #053,Authorized Reseller,R013,Berlin,2021-03-09,Pedro Martinez
+S0054,Samsung Online - Berlin #054,Online,R013,Berlin,2023-11-13,Rohan Lee
+S0055,Samsung SES - Berlin #055,Samsung Experience Store,R013,Berlin,2023-10-07,Hiroshi Brown
+S0056,Samsung Reseller - Berlin #056,Authorized Reseller,R013,Berlin,2022-11-25,Noah Reddy
+S0057,Samsung SES - Berlin #057,Samsung Experience Store,R013,Berlin,2020-05-11,James Sharma
+S0058,Samsung Reseller - Berlin #058,Authorized Reseller,R013,Berlin,2021-04-16,Lucas Kapoor
+S0059,Samsung SES - Berlin #059,Samsung Experience Store,R013,Berlin,2023-12-20,Hiroshi Patel
+S0060,Samsung SES - Munich #060,Samsung Experience Store,R014,Munich,2020-03-05,Carlos Smith
+S0061,Samsung SES - Munich #061,Samsung Experience Store,R014,Munich,2021-05-02,Vikram Suzuki
+S0062,Samsung Reseller - Munich #062,Authorized Reseller,R014,Munich,2023-01-09,Karan Park
+S0063,Samsung Carrier - Munich #063,Carrier Partner,R014,Munich,2023-03-15,Lucas Miller
+S0064,Samsung Online - Paris #064,Online,R015,Paris,2024-07-11,Olivia Verma
+S0065,Samsung SES - Paris #065,Samsung Experience Store,R015,Paris,2023-09-11,Olivia Brown
+S0066,Samsung Reseller - Paris #066,Authorized Reseller,R015,Paris,2022-08-14,Carlos Park
+S0067,Samsung SES - Paris #067,Samsung Experience Store,R015,Paris,2023-08-31,Hiroshi Reddy
+S0068,Samsung Reseller - Dubai #068,Authorized Reseller,R016,Dubai,2021-11-25,Fatima Silva
+S0069,Samsung SES - Dubai #069,Samsung Experience Store,R016,Dubai,2021-01-27,Rohan Martinez
+S0070,Samsung Reseller - Dubai #070,Authorized Reseller,R016,Dubai,2022-05-14,Meera Joshi
+S0071,Samsung SES - Riyadh #071,Samsung Experience Store,R017,Riyadh,2020-06-03,Noah Hassan
+S0072,Samsung Carrier - Riyadh #072,Carrier Partner,R017,Riyadh,2023-02-01,Sneha Patel
+S0073,Samsung Online - Riyadh #073,Online,R017,Riyadh,2023-01-12,Wei Sharma
+S0074,Samsung Carrier - Riyadh #074,Carrier Partner,R017,Riyadh,2024-03-23,Carlos Kapoor
+S0075,Samsung SES - Riyadh #075,Samsung Experience Store,R017,Riyadh,2022-09-21,Sophia Verma
+S0076,Samsung Carrier - Riyadh #076,Carrier Partner,R017,Riyadh,2020-04-30,Meera Wilson
+S0077,Samsung Carrier - New York #077,Carrier Partner,R018,New York,2021-06-27,Pedro Hassan
+S0078,Samsung Online - New York #078,Online,R018,New York,2021-08-07,Olivia Lee
+S0079,Samsung Carrier - New York #079,Carrier Partner,R018,New York,2024-05-23,Ava Suzuki
+S0080,Samsung SES - Los Angeles #080,Samsung Experience Store,R019,Los Angeles,2021-08-30,Rohan Patel
+S0081,Samsung Reseller - Los Angeles #081,Authorized Reseller,R019,Los Angeles,2023-01-15,Priya Park
+S0082,Samsung SES - Los Angeles #082,Samsung Experience Store,R019,Los Angeles,2020-04-12,Lucas Miller
+S0083,Samsung Reseller - Los Angeles #083,Authorized Reseller,R019,Los Angeles,2024-10-12,Daniel Singh
+S0084,Samsung SES - Los Angeles #084,Samsung Experience Store,R019,Los Angeles,2022-11-06,Rahul Silva
+S0085,Samsung SES - Los Angeles #085,Samsung Experience Store,R019,Los Angeles,2023-05-03,Rahul Suzuki
+S0086,Samsung Reseller - Chicago #086,Authorized Reseller,R020,Chicago,2024-12-28,Lucas Kapoor
+S0087,Samsung Reseller - Chicago #087,Authorized Reseller,R020,Chicago,2020-03-22,Mia Khan
+S0088,Samsung Reseller - Chicago #088,Authorized Reseller,R020,Chicago,2023-04-10,Lucas Garcia
+S0089,Samsung SES - Chicago #089,Samsung Experience Store,R020,Chicago,2021-06-18,Rohan Suzuki
+S0090,Samsung SES - Houston #090,Samsung Experience Store,R021,Houston,2022-03-21,Karan Suzuki
+S0091,Samsung Reseller - Houston #091,Authorized Reseller,R021,Houston,2022-07-25,James Souza
+S0092,Samsung Online - Houston #092,Online,R021,Houston,2020-05-28,Aarav Davis
+S0093,Samsung Reseller - Houston #093,Authorized Reseller,R021,Houston,2023-02-27,Sneha Khan
+S0094,Samsung Reseller - Houston #094,Authorized Reseller,R021,Houston,2022-11-02,Vikram Iyer
+S0095,Samsung Carrier - Toronto #095,Carrier Partner,R022,Toronto,2024-12-05,Anjali Brown
+S0096,Samsung SES - Toronto #096,Samsung Experience Store,R022,Toronto,2022-06-16,Wei Martinez
+S0097,Samsung Online - Toronto #097,Online,R022,Toronto,2023-06-06,Fatima Tanaka
+S0098,Samsung Reseller - Toronto #098,Authorized Reseller,R022,Toronto,2023-09-29,Wei Martinez
+S0099,Samsung SES - Toronto #099,Samsung Experience Store,R022,Toronto,2023-09-20,Sneha Rodriguez
+S0100,Samsung SES - Sao Paulo #100,Samsung Experience Store,R023,Sao Paulo,2024-12-27,Sneha Park
+S0101,Samsung Reseller - Sao Paulo #101,Authorized Reseller,R023,Sao Paulo,2021-07-11,Neha Kim
+S0102,Samsung SES - Sao Paulo #102,Samsung Experience Store,R023,Sao Paulo,2021-12-03,Rohan Suzuki
+S0103,Samsung Reseller - Sao Paulo #103,Authorized Reseller,R023,Sao Paulo,2021-06-24,Daniel Miller
+S0104,Samsung Carrier - Mexico City #104,Carrier Partner,R024,Mexico City,2024-09-28,Priya Khan
+S0105,Samsung Reseller - Mexico City #105,Authorized Reseller,R024,Mexico City,2024-08-25,Vikram Patel
+S0106,Samsung SES - Mexico City #106,Samsung Experience Store,R024,Mexico City,2024-04-28,Karan Tanaka
+S0107,Samsung Carrier - Mexico City #107,Carrier Partner,R024,Mexico City,2020-11-26,Seo-yeon Davis
+S0108,Samsung Reseller - Mexico City #108,Authorized Reseller,R024,Mexico City,2022-05-25,Ava Sharma

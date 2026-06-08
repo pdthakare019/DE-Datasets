@@ -1,0 +1,36 @@
+product_id,product_name,category,sub_category,model_number,launch_date,msrp_usd,color,status
+P0001,Galaxy S24 Ultra,Smartphones,Flagship,SM-S928B,2026-01-17,1299.0,Titanium Black,Active
+P0002,Galaxy S24+,Smartphones,Flagship,SM-S926B,2026-01-17,999.0,Onyx Black,Active
+P0003,Galaxy S24,Smartphones,Flagship,SM-S921B,2026-01-17,799.0,Cobalt Violet,Active
+P0004,Galaxy Z Fold6,Smartphones,Foldable,SM-F956B,2025-07-24,1899.0,Silver Shadow,Active
+P0005,Galaxy Z Flip6,Smartphones,Foldable,SM-F741B,2025-07-24,1099.0,Mint,Active
+P0006,Galaxy A55 5G,Smartphones,Mid-range,SM-A556B,2025-03-11,449.0,Awesome Iceblue,Active
+P0007,Galaxy A35 5G,Smartphones,Mid-range,SM-A356B,2025-03-11,379.0,Awesome Lilac,Active
+P0008,Galaxy A25 5G,Smartphones,Budget,SM-A256B,2025-12-11,299.0,Blue Black,Active
+P0009,Galaxy A15,Smartphones,Budget,SM-A155F,2025-12-15,199.0,Light Blue,Active
+P0010,Galaxy M15 5G,Smartphones,Budget,SM-M156B,2025-04-02,179.0,Stone Grey,Active
+P0011,"Neo QLED 8K 85""",TVs,Premium,QN85QN900D,2026-03-15,4999.0,Black,Active
+P0012,"Neo QLED 4K 65""",TVs,Premium,QN65QN90D,2026-03-15,2299.0,Titan Black,Active
+P0013,"OLED S95D 65""",TVs,Premium,QN65S95D,2026-04-01,3299.0,Graphite Black,Active
+P0014,"QLED 4K 55""",TVs,Mid-range,QN55Q70D,2026-03-15,999.0,Titan Gray,Active
+P0015,"The Frame 55""",TVs,Lifestyle,QN55LS03D,2026-03-15,1499.0,Charcoal Black,Active
+P0016,"Crystal UHD 50""",TVs,Entry,UN50DU8000,2026-04-01,549.0,Black,Active
+P0017,"Crystal UHD 43""",TVs,Entry,UN43DU7000,2026-04-01,399.0,Black,Active
+P0018,Galaxy Tab S10 Ultra,Tablets,Flagship,SM-X926B,2025-10-03,1199.0,Moonstone Gray,Active
+P0019,Galaxy Tab S10+,Tablets,Flagship,SM-X826B,2025-10-03,999.0,Moonstone Gray,Active
+P0020,Galaxy Tab S9 FE,Tablets,Mid-range,SM-X510,2025-10-04,449.0,Mint,Active
+P0021,Galaxy Tab A9+,Tablets,Budget,SM-X216B,2025-10-05,219.0,Navy,Active
+P0022,Galaxy Watch Ultra,Wearables,Premium,SM-L705F,2025-07-24,649.0,Titanium Silver,Active
+P0023,Galaxy Watch7 44mm,Wearables,Mid-range,SM-L310,2025-07-24,329.0,Green,Active
+P0024,Galaxy Watch7 40mm,Wearables,Mid-range,SM-L300,2025-07-24,299.0,Cream,Active
+P0025,Galaxy Buds3 Pro,Wearables,Premium,SM-R630,2025-07-24,249.0,Silver,Active
+P0026,Galaxy Buds3,Wearables,Mid-range,SM-R530,2025-07-24,179.0,Silver,Active
+P0027,Galaxy Buds FE,Wearables,Budget,SM-R400,2025-10-26,99.0,Graphite,Active
+P0028,Bespoke 4-Door Fridge,Appliances,Refrigerator,RF29DB9700,2026-02-20,3299.0,Glam Navy,Active
+P0029,Side-by-Side Fridge,Appliances,Refrigerator,RS27T5200,2025-09-12,1499.0,Stainless Steel,Active
+P0030,Bespoke Washer 5.3cf,Appliances,Laundry,WF53BB8700,2026-02-20,1399.0,Brushed Navy,Active
+P0031,Top Load Washer 4.5cf,Appliances,Laundry,WA45T3200,2025-08-15,699.0,White,Active
+P0032,Microwave 1.9cf,Appliances,Cooking,ME19R7041,2025-08-15,329.0,Stainless,Active
+P0033,Linear Dishwasher,Appliances,Dishwasher,DW80B7070,2025-09-01,899.0,Stainless,Active
+P0034,HW-Q990D Soundbar,Audio,Premium,HW-Q990D,2026-04-15,1699.0,Black,Active
+P0035,HW-B650 Soundbar,Audio,Mid-range,HW-B650,2025-04-15,349.0,Black,Active
